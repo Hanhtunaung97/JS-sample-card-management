@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Rubik:wght@300;400;600;700&display=swap");
+@import url(../node_modules/sweetalert2/dist/sweetalert2.min.css);
+@import url(../node_modules/animate.css/animate.min.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-title {
+  @apply font-heading text-red-600;
+}
+.swal2-confirm {
+  @apply bg-neutral-700 text-white !important;
+}
+.swal2-cancel {
+  @apply bg-neutral-200 text-neutral-700 border-neutral-700 !important;
+}
+.category-badge {
+  @apply capitalize  border border-neutral-700 py-2 px-3 text-neutral-700 duration-100 whitespace-nowrap;
+}
+.category-badge.active {
+  @apply border-neutral-700 bg-neutral-700 border  text-white -rotate-3;
+}
+.product-card {
+}
+.product-card .product-img {
+  @apply duration-300 transition-transform;
+}
+.product-card:hover .product-img {
+  @apply -rotate-12;
+}
