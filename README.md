@@ -10,9 +10,9 @@
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- vanilla js
-- animate.css
-- sweetalert2
+- Vanilla js
+- Animate.css
+- Sweetalert2
 - Vite
 - Tailwind CSS
 
